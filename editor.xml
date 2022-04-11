@@ -1,0 +1,82 @@
+<application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+    <option name="COLLAPSE_METHODS" value="true" />
+    <option name="COLLAPSE_FILE_HEADER" value="false" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+    <option name="SMART_BACKSPACE" value="2" />
+    <option name="INSERT_BRACE_ON_ENTER" value="false" />
+    <option name="REFORMAT_ON_PASTE" value="1" />
+    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+  </component>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="16" />
+    <option name="FONT_FAMILY" value="Fira Code" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
+    <option name="LINE_SPACING" value="1.1" />
+    <option name="USE_LIGATURES" value="true" />
+  </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="CSS" value="true" />
+        <entry key="Groovy" value="false" />
+        <entry key="HOCON" value="true" />
+        <entry key="HTML" value="true" />
+        <entry key="Haml" value="true" />
+        <entry key="JAVA" value="false" />
+        <entry key="JSON" value="true" />
+        <entry key="JavaScript" value="true" />
+        <entry key="LESS" value="true" />
+        <entry key="Python" value="true" />
+        <entry key="SASS" value="false" />
+        <entry key="SCSS" value="true" />
+        <entry key="Scala" value="true" />
+        <entry key="Stylus" value="true" />
+        <entry key="TypeScript" value="true" />
+        <entry key="XHTML" value="true" />
+        <entry key="XML" value="true" />
+        <entry key="yaml" value="true" />
+      </map>
+    </option>
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+    <option name="IS_CARET_INSIDE_TABS" value="true" />
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="false" />
+    <option name="CARET_BLINKING_PERIOD" value="250" />
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="disabledLanguages">
+      <set>
+        <option value="JAVA" />
+        <option value="Scala" />
+      </set>
+    </option>
+    <option name="enabled" value="false" />
+    <option name="lastViewedProviderKeyId" value="Scala.ScalaTypeHintsSettingsModel" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseInnerClasses" value="true" />
+  </component>
+  <component name="PythonFoldingSettings">
+    <option name="COLLAPSE_LONG_STRINGS" value="true" />
+    <option name="COLLAPSE_LONG_COLLECTIONS" value="true" />
+  </component>
+  <component name="ScalaCodeFoldingSettings">
+    <option name="collapseShellComments" value="false" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern case-sensitive="true" pattern="\btodo\b.*" />
+    <pattern case-sensitive="true" pattern="\bfixme\b.*" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
+</application>

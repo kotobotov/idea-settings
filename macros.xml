@@ -1,0 +1,14 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="space_jump">
+      <action id="IncrementalSearch" />
+      <typing text-keycode="32:0">&amp;#x20;</typing>
+      <action id="EditorDown" />
+      <action id="EditorRight" />
+    </macro>
+    <macro name="select_to">
+      <action id="EditorToggleStickySelection" />
+      <action id="IncrementalSearch" />
+    </macro>
+  </component>
+</application>

@@ -1,0 +1,52 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="DockerTestData" type="AUTO_DETECTED" />
+      <mapping pattern="sample" type="AUTO_DETECTED" />
+      <mapping pattern="upsert_df_logs" type="Native" />
+      <mapping pattern="df_union" type="Native" />
+      <mapping pattern="profile_input" type="Native" />
+      <mapping pattern="schemas" type="Native" />
+      <mapping pattern="schema_old" type="PLAIN_TEXT" />
+      <mapping pattern="changed_old" type="PLAIN_TEXT" />
+      <mapping pattern="._SUCCESS.crc" type="PLAIN_TEXT" />
+      <mapping pattern="ssh" type="PLAIN_TEXT" />
+      <mapping pattern="changed_new" type="PLAIN_TEXT" />
+      <mapping pattern="schema_new" type="PLAIN_TEXT" />
+      <mapping pattern="cmnd" type="PLAIN_TEXT" />
+      <mapping pattern="docker" type="PLAIN_TEXT" />
+      <mapping pattern=".Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping pattern="visit3" type="PLAIN_TEXT" />
+      <mapping pattern="lastFiles" type="PLAIN_TEXT" />
+      <mapping pattern="ga_to_delet" type="PLAIN_TEXT" />
+      <mapping pattern="visit2" type="PLAIN_TEXT" />
+      <mapping pattern="visit1" type="PLAIN_TEXT" />
+      <mapping pattern="fileConf" type="PLAIN_TEXT" />
+      <mapping pattern="new" type="PLAIN_TEXT" />
+      <mapping pattern="rest" type="PLAIN_TEXT" />
+      <mapping pattern="temp" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="ga_sessions_20150320_000000000000" type="PLAIN_TEXT" />
+      <mapping pattern="rollBackFiles" type="PLAIN_TEXT" />
+      <mapping pattern="ga_profile_system_new" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="te" type="PLAIN_TEXT" />
+      <mapping pattern="df_show" type="PLAIN_TEXT" />
+      <mapping pattern="_SUCCESS" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="schema_temp" type="PLAIN_TEXT" />
+      <mapping pattern="part-00000" type="PLAIN_TEXT" />
+      <mapping pattern="searchHistory" type="PLAIN_TEXT" />
+      <mapping ext="http" type="PLAIN_TEXT" />
+      <mapping ext="parquet" type="PLAIN_TEXT" />
+      <mapping ext="orc" type="PLAIN_TEXT" />
+      <mapping ext="vue" type="PLAIN_TEXT" />
+      <mapping ext="enc" type="PLAIN_TEXT" />
+      <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
+    </extensionMap>
+  </component>
+</application>

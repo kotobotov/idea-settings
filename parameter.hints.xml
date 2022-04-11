@@ -1,0 +1,11 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java" />
+      <blacklist language="Scala" />
+      <blacklist language="JavaScript" />
+      <blacklist language="Groovy" />
+    </blacklists>
+  </component>
+</application>

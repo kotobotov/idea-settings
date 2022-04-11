@@ -1,0 +1,51 @@
+<application>
+  <component name="GitConflict">
+    <option name="markColors">
+      <map>
+        <entry key="Auto">
+          <value>
+            <MarkColor />
+          </value>
+        </entry>
+        <entry key="Darcula">
+          <value>
+            <MarkColor>
+              <option name="currentColor" value="2441275" />
+              <option name="currentTitleColor" value="3109734" />
+              <option name="incomingColor" value="2439499" />
+              <option name="incomingTitleColor" value="3105423" />
+              <option name="schemeName" value="Darcula" />
+            </MarkColor>
+          </value>
+        </entry>
+        <entry key="IntelliJ">
+          <value>
+            <MarkColor>
+              <option name="darkCurrentColor" value="14284015" />
+              <option name="darkCurrentTitleColor" value="10478550" />
+              <option name="darkIncomingColor" value="14282239" />
+              <option name="darkIncomingTitleColor" value="10474239" />
+              <option name="schemeName" value="IntelliJ" />
+            </MarkColor>
+          </value>
+        </entry>
+        <entry key="kotobotov">
+          <value>
+            <MarkColor>
+              <option name="builtIn" value="false" />
+              <option name="currentColor" value="0" />
+              <option name="currentTitleColor" value="0" />
+              <option name="darkCurrentColor" value="0" />
+              <option name="darkCurrentTitleColor" value="0" />
+              <option name="darkIncomingColor" value="13107" />
+              <option name="darkIncomingTitleColor" value="6750003" />
+              <option name="incomingColor" value="13107" />
+              <option name="incomingTitleColor" value="6750003" />
+              <option name="schemeName" value="kotobotov" />
+            </MarkColor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

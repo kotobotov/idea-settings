@@ -1,0 +1,24 @@
+<code_scheme name="Default" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </value>
+  </option>
+  <ScalaCodeStyleSettings>
+    <option name="addFullQualifiedImports" value="false" />
+    <option name="addImportMostCloseToReference" value="true" />
+    <option name="alwaysUsedImports">
+      <array>
+        <option value="akka.actor.ActorSystem" />
+      </array>
+    </option>
+    <option name="FORMATTER" value="1" />
+  </ScalaCodeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
