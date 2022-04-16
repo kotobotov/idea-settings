@@ -119,7 +119,7 @@
   <action id="CommanderSwapPanels" />
   <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
   <action id="CompareDirs" />
   <action id="CompareJars" />
