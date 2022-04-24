@@ -411,6 +411,7 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="ctrl equals" />
     <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo">
