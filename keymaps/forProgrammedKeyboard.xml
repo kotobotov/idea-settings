@@ -521,6 +521,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
@@ -547,6 +550,9 @@
   <action id="IntroduceVariable" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift ctrl d" second-keystroke="shift down" />
+  </action>
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="down" />
   </action>
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift ctrl d" second-keystroke="shift up" />
