@@ -258,6 +258,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
     <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="EditorDeleteToWordEnd" />
   <action id="EditorDeleteToWordStart">
@@ -271,6 +272,7 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
@@ -323,7 +325,6 @@
   </action>
   <action id="EditorMoveDownAndScroll">
     <keyboard-shortcut first-keystroke="alt k" />
-    <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="EditorMoveDownAndScrollWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -333,7 +334,6 @@
   <action id="EditorMoveUpAndScroll">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt i" />
-    <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="EditorMoveUpAndScrollWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl i" />
