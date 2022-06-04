@@ -201,6 +201,9 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="EditorAddCaretPerSelectedLine">
+    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="page_up" />
+  </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="alt button1" />
   </action>
@@ -528,7 +531,6 @@
   </action>
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="o" />
-    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="page_up" />
   </action>
   <action id="HippieBackwardCompletion" />
   <action id="HippieCompletion">
