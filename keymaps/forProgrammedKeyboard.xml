@@ -269,7 +269,6 @@
     <keyboard-shortcut first-keystroke="shift back_space" />
   </action>
   <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="EditorDuplicate">
@@ -298,7 +297,6 @@
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
-    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift alt j" />
@@ -328,6 +326,7 @@
   </action>
   <action id="EditorMoveDownAndScroll">
     <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="EditorMoveDownAndScrollWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -337,6 +336,7 @@
   <action id="EditorMoveUpAndScroll">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt i" />
+    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="EditorMoveUpAndScrollWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl i" />
@@ -347,6 +347,7 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt l" />
     <mouse-shortcut keystroke="shift button143" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorNextWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift right" />
@@ -361,6 +362,7 @@
     <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="ctrl left" />
     <mouse-shortcut keystroke="shift button142" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
@@ -370,7 +372,6 @@
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
-    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorRightWithSelection">
     <keyboard-shortcut first-keystroke="shift alt l" />
@@ -404,7 +405,6 @@
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
@@ -502,12 +502,14 @@
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="shift right" />
   </action>
   <action id="GotoPrevElementUnderCaretUsage">
     <keyboard-shortcut first-keystroke="ctrl f" second-keystroke="up" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="shift left" />
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
@@ -557,11 +559,23 @@
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift ctrl d" second-keystroke="shift up" />
   </action>
+  <action id="List-selectPreviousColumn">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="Macro.select_to">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="right" />
   </action>
   <action id="Macro.space_jump">
     <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift ctrl d" second-keystroke="shift right" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift ctrl d" second-keystroke="shift left" />
   </action>
   <action id="MoveElementLeft">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
@@ -584,6 +598,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt i" />
   </action>
   <action id="Mvc.RunTarget" />
+  <action id="NavBar-selectLeft">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="NavBar-selectUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="right" />
   </action>
@@ -633,6 +653,12 @@
   </action>
   <action id="PlaySavedMacrosAction">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="o" />
+  </action>
+  <action id="PopupMenu-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="PopupMenu-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="PrevParameter">
     <keyboard-shortcut first-keystroke="shift tab" />
@@ -769,7 +795,6 @@
   <action id="ShowFilePath">
     <keyboard-shortcut first-keystroke="ctrl alt f12" />
     <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="shift ctrl l" />
-    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="shift right" />
   </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -821,6 +846,9 @@
   <action id="Table-selectPreviousColumnExtendSelection">
     <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
+  <action id="Table-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="TableResult.UnselectPreviousOccurrence" />
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -854,8 +882,17 @@
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="Tree-selectLastExtendSelection" />
+  <action id="Tree-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="Tree-selectParent">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
   <action id="Tree-selectParentExtendSelection">
     <keyboard-shortcut first-keystroke="shift alt j" />
+  </action>
+  <action id="Tree-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="TypeHierarchy" />
   <action id="UML.ShowStructure">
