@@ -43,6 +43,7 @@
       <mapping ext="orc" type="PLAIN_TEXT" />
       <mapping ext="vue" type="PLAIN_TEXT" />
       <mapping ext="enc" type="PLAIN_TEXT" />
+      <mapping ext="gv" type="dot file" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="CSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
