@@ -16,6 +16,25 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
     <EXCLUDED_PACKAGE NAME="*javadsl*" />
   </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="inheritors" />
+        <option value="problems" />
+        <option value="references" />
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
+    <option name="enabled" value="false" />
+  </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
@@ -46,14 +65,27 @@
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
   <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JAVA.annotation.hints" />
+        <option value="JAVA.chain.hints" />
+        <option value="JAVA.java.implicit.types" />
+      </set>
+    </option>
     <option name="disabledLanguages">
       <set>
         <option value="JAVA" />
-        <option value="Scala" />
       </set>
     </option>
     <option name="enabled" value="false" />
-    <option name="lastViewedProviderKeyId" value="Scala.ScalaTypeHintsSettingsModel" />
+    <option name="lastViewedProviderKeyId" value="Scala.parameter.hints.old.scala.apply.update.hint" />
+    <settingsMapElement>
+      <JAVA.annotation.hints>
+        <Settings>
+          <option name="showExternal" value="false" />
+        </Settings>
+      </JAVA.annotation.hints>
+    </settingsMapElement>
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseInnerClasses" value="true" />

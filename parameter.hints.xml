@@ -7,5 +7,10 @@
       <blacklist language="JavaScript" />
       <blacklist language="Groovy" />
     </blacklists>
+    <option id="java.enums" value="false" />
+    <option id="java.new.expr" value="false" />
+    <disabledLanguages>
+      <language id="JAVA" />
+    </disabledLanguages>
   </component>
 </application>
