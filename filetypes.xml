@@ -41,6 +41,7 @@
       <mapping ext="http" type="PLAIN_TEXT" />
       <mapping ext="parquet" type="PLAIN_TEXT" />
       <mapping ext="orc" type="PLAIN_TEXT" />
+      <mapping ext="thrift" type="PLAIN_TEXT" />
       <mapping ext="vue" type="PLAIN_TEXT" />
       <mapping ext="enc" type="PLAIN_TEXT" />
       <mapping ext="gv" type="dot file" />
