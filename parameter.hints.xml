@@ -11,6 +11,7 @@
     <option id="java.new.expr" value="false" />
     <disabledLanguages>
       <language id="JAVA" />
+      <language id="Scala" />
     </disabledLanguages>
   </component>
 </application>

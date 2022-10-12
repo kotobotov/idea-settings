@@ -70,6 +70,7 @@
         <option value="JAVA.annotation.hints" />
         <option value="JAVA.chain.hints" />
         <option value="JAVA.java.implicit.types" />
+        <option value="Markdown.MarkdownTableInlayProviderSettingsKey" />
       </set>
     </option>
     <option name="disabledLanguages">
@@ -78,7 +79,7 @@
       </set>
     </option>
     <option name="enabled" value="false" />
-    <option name="lastViewedProviderKeyId" value="Scala.parameter.hints.old.scala.apply.update.hint" />
+    <option name="lastViewedProviderKeyId" value="Scala.Scala.ScalaTypeHintsSettingsModel.Scala.ScalaTypeHintsSettingsModel.showLocalVariableType" />
     <settingsMapElement>
       <JAVA.annotation.hints>
         <Settings>
