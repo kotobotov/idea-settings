@@ -81,6 +81,7 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="k" />
     <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="down" />
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="CallHierarchy" />
   <action id="CallHierarchy.BaseOnThisType" />
@@ -450,6 +451,7 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="i" />
     <keyboard-shortcut first-keystroke="ctrl d" second-keystroke="up" />
+    <mouse-shortcut keystroke="button4" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="i" />
